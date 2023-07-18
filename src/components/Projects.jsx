@@ -36,16 +36,16 @@ const Projects = () => {
             src={Projects.image}
             alt="..."
             data-aos="fade-right"
-            className="max-w-[45vw] min-w-[22rem]"
+            className="max-w-[45vw] min-w-[18rem]"
           />
           <Swiper
             pagination={{
               clickable: true,
             }}
             data-aos="fade-left"
-            spaceBetween={20}
+            spaceBetween={10}
             modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"
+            className="rounded-3xl pb-16 max-w-[17rem] md:max-w-sm drop-shadow-primary self-start"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
@@ -53,7 +53,7 @@ const Projects = () => {
                 className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
               >
                 <img src={content.image} alt="..." />
-                <div className="flex flex-col gap-1 mt-2">
+                <div className="flex flex-wrap flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
                   {showDetails ? (
                     <>

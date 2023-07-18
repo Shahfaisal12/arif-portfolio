@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2 className="">{hero.title}</h2>
           <br />
-          <div className="flex justify-end gap-3">
+          <div className="flex justify-center md:justify-end gap-3">
             <a  href="#contact" className="btn">{hero.btnText}</a>
             <button className="btn" onClick={handleDownload}>{hero.btnDownload}</button>
           </div>
