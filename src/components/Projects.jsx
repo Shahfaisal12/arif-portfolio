@@ -5,11 +5,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import { useState } from "react";
 
 import { Pagination } from "swiper";
 
 const Projects = () => {
+  
   const { Projects } = content;
+
+  const [showDetails, setShowDetails] = useState(false);
+
+  const toggleDetails = () => {
+    setShowDetails(!showDetails);
+  };
+
   return (
     <section className="bg-bg_light_primary" id="projects">
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
@@ -46,9 +55,18 @@ const Projects = () => {
                 <img src={content.image} alt="..." />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
-                    READ MORE
-                  </button>
+                  {showDetails ? (
+                    <>
+                      <p>{content.para}</p>
+                      <button className="font-bold text-gray self-end" onClick={toggleDetails}>
+                        SHOW LESS
+                      </button>
+                    </>
+                  ) : (
+                    <button className="font-bold text-gray self-end" onClick={toggleDetails}>
+                      READ MORE
+                    </button>
+                  )}
                 </div>
               </SwiperSlide>
             ))}
