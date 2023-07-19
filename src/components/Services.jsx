@@ -24,7 +24,7 @@ const Services = () => {
               <img src={content.logo} alt="..." className="mx-auto" />
               <h6 className="mt-3">{content.title}</h6>
               <p className="text-slate-500 text-[12px] font-semibold">At</p>
-              <p className="text- text-[14px] font-semibold mb-3">{content.company} <span className="text-left">{content.date}</span></p>
+              <p className="text- text-[14px] font-bold mb-3">{content.company} <span className="text-[#f2535644]">{content.date}</span></p>
               <p className="leading-7">{content.para}</p>
 
               
