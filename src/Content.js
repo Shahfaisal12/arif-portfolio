@@ -13,7 +13,7 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img2.png";
+import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
 import person_project from "./assets/images/projects/person.png";
@@ -273,18 +273,18 @@ export const content = {
       {
         title: "Fundamental of Digital Marketing",
         image: project1,
-        para:"Completed Google Digital Garage's Fundamental of Digital Marketing certificate, covering SEO, PPC, social media marketing, email marketing, and more. Acquired practical skills in optimizing websites, running online campaigns, and leveraging social media platforms. Demonstrates a commitment to expanding digital marketing knowledge and applying effective strategies.",
+        para: "Completed Google Digital Garage's Fundamental of Digital Marketing certificate, covering SEO, PPC, social media marketing, email marketing, and more. Acquired practical skills in optimizing websites, running online campaigns, and leveraging social media platforms. Demonstrates a commitment to expanding digital marketing knowledge and applying effective strategies.",
       },
       {
         title: "Google.com",
         image: project2,
-        para:"Google.com is a widely recognized and popular search engine and technology company. It provides a variety of services and products, including web search, online advertising technologies, cloud computing, productivity tools, and more. Google.com serves as a gateway to access information, connect with people, and discover a wide range of resources available on the internet.",
+        para: "Google.com is a widely recognized and popular search engine and technology company. It provides a variety of services and products, including web search, online advertising technologies, cloud computing, productivity tools, and more. Google.com serves as a gateway to access information, connect with people, and discover a wide range of resources available on the internet.",
       },
-      
+
       {
         title: "Google Ads Measurement",
         image: project3,
-        para:"Google Ads Measurement involves analyzing and evaluating the performance of advertising campaigns on Google Ads. It provides data-driven insights on conversions, KPIs, and user behavior. Helps optimize advertising strategies for better campaign results.",
+        para: "Google Ads Measurement involves analyzing and evaluating the performance of advertising campaigns on Google Ads. It provides data-driven insights on conversions, KPIs, and user behavior. Helps optimize advertising strategies for better campaign results.",
       },
     ],
   },
