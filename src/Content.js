@@ -296,19 +296,19 @@ export const content = {
         review:
           "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "Shah Faisal",
       },
       {
         review:
           "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar2,
-        name: "Tom Alex",
+        name: "Kamran",
       },
       {
         review:
           "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
         img: avatar3,
-        name: "Johnny",
+        name: "Hamza",
       },
       {
         review:
