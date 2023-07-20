@@ -338,15 +338,15 @@ export const content = {
       {
         text: "+923419283482",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/923419283482",
       },
       {
         text: "ArifUllah",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "",
       },
       {
-        text: "ArifUllah",
+        text: "syedmuhammad-arif-ullah-b9306562",
         icon: BsLinkedin,
         link: "www.linkedin.com/in/syedmuhammad-arif-ullah-b9306562",
       },
