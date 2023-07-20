@@ -72,7 +72,7 @@ const Contact = () => {
           {Contact.subtitle}
         </h4>
         <br />
-        <div className="flex gap-10 md:flex-row flex-col">
+        <div className="flex gap-10 md:flex-row flex-col-reverse">
           <form
             ref={formRef}
             onSubmit={handleSubmit}
